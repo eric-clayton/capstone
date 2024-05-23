@@ -1,0 +1,50 @@
+.Hero {
+    background-color: var(--lemon-green);
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    grid-column: 1/13;
+    grid-row: 1/5;
+}
+article {
+
+    grid-column: 3/6;
+    grid-row: 1/5;
+}
+article h1 {
+    margin-bottom: 0rem;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    color: var(--lemon-yellow);
+    font-size: 4rem;
+}
+article h4 {
+    color: white;
+    font-family: 'Markazi Text';
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+article p{
+    font-family: 'Karla';
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+article button{
+    margin-top: 2rem;
+}
+
+figure {
+    margin: 1rem 0rem 0rem 4rem;
+    background-size: cover;
+    grid-row: 1/5;
+    grid-column: 7/11;
+}
+figure img {
+    border-radius: var(--radius);
+    width: 100%;
+    max-height: 25rem;
+    object-fit: cover;
+}

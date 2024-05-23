@@ -1,0 +1,5 @@
+footer {
+    background-color: grey;
+    grid-column: 1/13;
+    grid-row: 22/26;
+}

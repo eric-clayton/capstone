@@ -1,18 +1,16 @@
-import './App.css';
+import './css/App.css';
 import Header from './components/Header';
-import Nav from './components/Nav';
-import Main from './components/Main';
+import Main from './components/main/Main';
 import Footer from './components/Footer';
 
 
 function App() {
   return (
-    <>
+    <div class="App Markazi-text-400">
       <Header></Header>
-      <Nav></Nav>
       <Main></Main>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

@@ -1,14 +1,13 @@
+import "../css/Nav.css"
 function Nav() {
     return (
         <nav>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Menu</a></li>
-                <li><a>Reservation</a></li>
-                <li><a>Order Online</a></li>
-                <li><a>Login</a></li>
-            </ul>
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">MENU</a>
+            <a href="">RESERVATIONS</a>
+            <a href="">ORDER ONLINE</a>
+            <a href="">LOGIN</a>
         </nav>
     );
 }
