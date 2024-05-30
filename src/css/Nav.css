@@ -1,12 +1,12 @@
-
-nav {
-    grid-column: 5/12;
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1.5rem;
 }
 nav a {
     font-family: 'Karla';
     font-weight: 800;
     font-size: 1.25rem;
-    margin-left: 1.5rem;
     text-decoration: none;
     color: inherit
 }

@@ -1,0 +1,74 @@
+.about {
+    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10rem;
+    grid-auto-columns: minmax(min-content, max-content);
+    justify-content: center;
+    gap: 2rem;
+    font-family: "Karla";
+}
+@media only screen and (max-width: 1370px){
+    .about {
+        grid-auto-flow: row;
+    }
+}
+.about p, h2, h4 {
+    margin-top: 1rem;
+}
+.about h2 {
+    font-family: "Markazi Text";
+    font-weight: 500;
+    font-size: 4rem;
+    width: max-content;
+}
+.about h4 {
+    font-size: 2.5rem;
+    font-family: "Markazi Text";
+    font-weight: 500;
+}
+.about p{
+    font-size: 1.125rem;
+    max-width: 24rem;
+}
+.about figure {
+    height: 27rem;
+    width: 20rem;
+}
+
+.fig-container {
+    position: relative;
+}
+.about figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.figure-one {
+    position: relative;
+    top: 5rem;
+}
+.figure-two {
+    position: absolute;
+    top: 0rem;
+    left: 17rem;
+}
+@media only screen and (max-width: 1000px) {
+    .about figure {
+        height: 17rem;
+        width: 10rem;
+    }
+    .figure-one {
+        display: inline-block;
+        position: static;
+    }
+    .figure-two {
+        display: inline-block;
+        position: static;
+    }
+    .fig-container {
+        position: static;
+    }
+}

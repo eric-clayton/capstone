@@ -1,12 +1,6 @@
 
 .App {
-    background: yellow;
     margin: 2.5rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(25, 1fr);
-    grid-column-gap: 1.25rem;
-    grid-row-gap: 1.25rem;
 }
 
 

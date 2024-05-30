@@ -1,0 +1,28 @@
+.special-card{
+    font-family: "Karla";
+    background-color: #EDEFEE;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    display: grid;
+    grid-template-rows: 45% 10% 35% 10%;
+    width: 17rem;
+    height: 27.5rem;
+}
+.special-image img {
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    height: 11.25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.special-card-heading, .special-desc, .special-footer {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+.special-desc p {
+    font-size: 1rem;
+    font-weight: 400;
+
+}

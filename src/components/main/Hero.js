@@ -2,7 +2,7 @@ import Button from "../buttons/Button";
 import '../../css/main/Hero.css'
 function Hero() {
     return (
-        <section>
+        <section className="Hero">
             <article>
                 <h1>Little Lemon</h1>
                 <h4>Chicago</h4>

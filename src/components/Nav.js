@@ -2,12 +2,14 @@ import "../css/Nav.css"
 function Nav() {
     return (
         <nav>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">MENU</a>
-            <a href="">RESERVATIONS</a>
-            <a href="">ORDER ONLINE</a>
-            <a href="">LOGIN</a>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">RESERVATIONS</a></li>
+                <li><a href="">ORDER ONLINE</a></li>
+                <li><a href="">LOGIN</a></li>
+            </ul>
         </nav>
     );
 }

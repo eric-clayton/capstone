@@ -1,0 +1,23 @@
+.testimonial-card {
+    display: block;
+    margin: 1rem;
+    background-color: #edefee;
+    padding: 1rem;
+    height: 13rem;
+    width: 13rem;
+    text-overflow: ellipsis;
+}
+.testimonial-middle {
+    display: flex;
+    align-items: center;
+}
+.testimonial-card img {
+    margin: 1rem 1rem 1rem 0rem;
+    max-height: 3.75rem;
+    width: 3.75rem;
+    object-fit: cover;
+}
+.testimonial-card p{
+    font-family: 'Karla';
+    font-weight: 700;
+}
