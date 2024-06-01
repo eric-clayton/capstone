@@ -3,7 +3,7 @@ nav li {
     list-style: none;
     margin-left: 1.5rem;
 }
-nav a {
+.nav-bar a {
     font-family: 'Karla';
     font-weight: 800;
     font-size: 1.25rem;

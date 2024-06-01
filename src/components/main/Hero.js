@@ -7,7 +7,7 @@ function Hero() {
                 <h1>Little Lemon</h1>
                 <h4>Chicago</h4>
                 <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                <Button>Reserve a Table</Button>
+                <Button link="/Booking">Reserve a Table</Button>
             </article>
             <figure>
                 <img src="https://mohamed-safouen.github.io/Little-Limon-Restaurant/static/media/restauranfood.e8abf5b772b6817189aa.jpg"></img>

@@ -1,3 +1,4 @@
+import { Route } from 'react-router-dom';
 import '../../css/main/About.css'
 import MarioA from "../../images/Mario and Adrian A.jpg"
 import MarioB from "../../images/Mario and Adrian b.jpg"
