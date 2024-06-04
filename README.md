@@ -1,3 +1,10 @@
+# Little Lemon Resturaunt
+A mock website for the coursera Meta front-end Developer capstone project. Style guild provided by Coursera. Technologies used: Figma, React, CSS.
+
+High fidelity mockup:
+![image](https://github.com/eric-clayton/capstone/assets/68301170/335f788e-f6d3-4909-b9ac-aa08638233ea)
+Figma file: https://www.figma.com/design/RvqqH7gAPPXQ3JP3zX9fuf/Capstone-wireframe?node-id=11-7&t=zL7CctqLUe1oNKyn-0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
