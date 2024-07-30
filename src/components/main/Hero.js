@@ -10,7 +10,7 @@ function Hero() {
                 <Button link="/Booking">Reserve a Table</Button>
             </article>
             <figure>
-                <img src="https://mohamed-safouen.github.io/Little-Limon-Restaurant/static/media/restauranfood.e8abf5b772b6817189aa.jpg"></img>
+                <img src="https://mohamed-safouen.github.io/Little-Limon-Restaurant/static/media/restauranfood.e8abf5b772b6817189aa.jpg" alt="Chef of the little lemon restaurant"></img>
             </figure>
         </section>
     );

@@ -18,6 +18,7 @@ export const updateTimes = (availableTimes, action) => {
             if(action.payload){
                 return fetchAPI(action.payload);
             }
+            break;
         default:
             return initializeTimes();
     }
