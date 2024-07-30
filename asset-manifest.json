@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/capstone/static/css/main.63ba41e4.css",
+    "main.js": "/capstone/static/js/main.c9d894ed.js",
+    "static/js/453.7b154009.chunk.js": "/capstone/static/js/453.7b154009.chunk.js",
+    "static/media/Mario and Adrian A.jpg": "/capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
+    "static/media/Mario and Adrian b.jpg": "/capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/bruchetta.svg": "/capstone/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/Logo.svg": "/capstone/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/john.jpg": "/capstone/static/media/john.e3de52c152da3ecf2f63.jpg",
+    "index.html": "/capstone/index.html",
+    "static/media/order delivery icon.svg": "/capstone/static/media/order delivery icon.3d28f0d2dbd9ab78ac12e12066635b4d.svg",
+    "main.63ba41e4.css.map": "/capstone/static/css/main.63ba41e4.css.map",
+    "main.c9d894ed.js.map": "/capstone/static/js/main.c9d894ed.js.map",
+    "453.7b154009.chunk.js.map": "/capstone/static/js/453.7b154009.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ba41e4.css",
+    "static/js/main.c9d894ed.js"
+  ]
+}
