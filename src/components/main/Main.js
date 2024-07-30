@@ -33,11 +33,11 @@ function Main() {
     const [availableTimes, dispatch] = useReducer(updateTimes, initialTimes)
     return (
         <Routes>
-            <Route path="/" element= {<HomePage />}></Route>
-            <Route path="/Booking" element= {<BookingPage availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm}/>} ></Route>
-            <Route path='/about' element={<About/>}></Route>
-            <Route path='/order-online' element={<Specials/>}></Route>
-            <Route path='/Booking-Confirmation' element={<BookingConfirmation/>}></Route>
+            <Route path="/capstone/" element= {<HomePage />}></Route>
+            <Route path="/capstone/Booking" element= {<BookingPage availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm}/>} ></Route>
+            <Route path='/capstone/about' element={<About/>}></Route>
+            <Route path='/capstone/order-online' element={<Specials/>}></Route>
+            <Route path='/capstone/Booking-Confirmation' element={<BookingConfirmation/>}></Route>
         </Routes>
     );
 }
